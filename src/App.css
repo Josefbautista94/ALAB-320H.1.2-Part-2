@@ -1,0 +1,103 @@
+/* Global reset & body */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  border-left: 5px solid lightgray;
+}
+
+body {
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+
+}
+
+header, main, footer {
+  padding: 1rem 2rem;
+}
+
+/* Typography */
+h1 {
+  color: tomato;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.date {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Images */
+img {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Article styling */
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+article p::first-letter {
+  color: lightgray;
+  font-size: 3rem;
+  float: left;
+  line-height: 1;
+  padding-right: 0.5rem;
+}
+
+/* Navigation */
+.main-nav,
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.main-nav a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.footer-nav a {
+  color: tomato;
+  text-decoration: none;
+}
+
+.read-more {
+  float: right;
+  font-weight: bold;
+  color: tomato;
+  text-decoration: none;
+}
+
+/* Footer */
+footer p {
+  font-size: 0.9rem;
+  color: lightgray;
+  margin-top: 1rem;
+}
